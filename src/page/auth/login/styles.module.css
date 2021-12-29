@@ -1,0 +1,42 @@
+.container{
+    background: black;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.row{
+    background: darkslategray;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.label{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
